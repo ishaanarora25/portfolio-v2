@@ -80,3 +80,16 @@ export const projects = [
   ];
 
   export const skills = ["Python", "C/C++", "JavaScript", "React"]
+
+  export const socials = [
+    {
+      name: "Linkedin",
+      link: "https://www.linkedin.com/in/ishaanarora25/",
+      icon: "/icons/linkedin.svg"
+    },
+    {
+      name: "Github",
+      link: "https://www.github.com/ishaanarora25",
+      icon: "/icons/github.svg"
+    },
+  ]

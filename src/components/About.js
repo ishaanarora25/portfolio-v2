@@ -1,4 +1,5 @@
 import React from "react";
+import { socials } from "../data";
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
           I just graduated Summa Cum Laude with a Bachelor of Science from Tufts University. 
           I am very interested in Quantum Computing and its applications in machine learning and financial predictions.
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-center mb-5">
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
@@ -23,6 +24,15 @@ export default function About() {
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               See My Past Work
             </a>
+          </div>
+          <div className="flex justify-center">
+            {socials.map((social) => (
+                <a
+                    href={social.link}
+                    target="_blank" rel="noopener noreferrer">
+                <img src={social.icon} /> 
+                </a>
+            ))}
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

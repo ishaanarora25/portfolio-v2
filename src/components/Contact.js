@@ -55,11 +55,6 @@ export default function Contact() {
               <a className="text-indigo-400 leading-relaxed">
                 ishaanarora2510@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">+1 (781)-539-5606</p>
-              <p className="leading-relaxed">+91 95999 27723</p>
             </div>
           </div>
         </div>
