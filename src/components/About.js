@@ -11,7 +11,7 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
           I just graduated Summa Cum Laude with a Bachelor of Science from Tufts University. 
-          I am very interested in Quantum Computing and its applications in machine learning and financial predictions.
+          I am an aspiring Software Engineer, and I am very passionate about using emerging technologies.
           </p>
           <div className="flex justify-center mb-5">
             <a
@@ -30,7 +30,7 @@ export default function About() {
                 <a
                     href={social.link}
                     target="_blank" rel="noopener noreferrer">
-                <img src={social.icon} /> 
+                <img src={social.icon} alt={social.name} /> 
                 </a>
             ))}
           </div>
@@ -39,7 +39,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             src="/images/headshot.png"
-            alt="hero"
+            alt="Ishaan"
           />
         </div>
       </div>

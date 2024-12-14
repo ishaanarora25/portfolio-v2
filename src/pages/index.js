@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Experiences from "../components/Experiences";
+import Quantum from "../components/Quantum";
 
 export const Head = () => {
   return (
@@ -22,6 +23,7 @@ export default function App() {
       <Experiences />
       <Projects />
       <Skills />
+      <Quantum />
       <Contact />
     </main>
   )

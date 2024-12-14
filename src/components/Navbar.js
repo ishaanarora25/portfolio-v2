@@ -20,11 +20,11 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
+          <a href="#quantum" className="mr-5 hover:text-white">
+            Quantum Horizons
+          </a>
           <a href="/resume.pdf" className="mr-5 hover:text-white" target="_blank" rel="noopener noreferrer">
             Resume
-          </a>
-          <a href="https://quantumhorizonsblog.wordpress.com/" className="mr-5 hover:text-white" target="_blank" rel="noopener noreferrer">
-            Quantum Blog
           </a>
         </nav>
         <a
